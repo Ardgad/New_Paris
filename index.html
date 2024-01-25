@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Explore Paris</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li>
+          <a href="#" onclick="showSection('attractions')">Attractions</a>
+        </li>
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <header id="home">
+        <h1>Explore Paris</h1>
+        <p>Your guide to the best attractions in the City of Love</p>
+      </header>
+
+      <section id="attractions" class="attraction">
+        <img src="eiffel_tower.jpg" alt="Eiffel Tower" />
+        <h2>Eiffel Tower</h2>
+        <p>
+          The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars
+          in Paris, France. It is one of the most iconic landmarks in the world.
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          Welcome to Explore Paris, your ultimate guide to discovering the
+          beauty and charm of the French capital.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Feel free to reach out to us.</p>
+        <p>Email: jeremyparis@example.com</p>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Explore Paris with Jeremy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
