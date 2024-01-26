@@ -50,8 +50,8 @@ header p {
 }
 
 .attraction img {
-    max-width: 100%;
-    border-radius: 5px;
+    max-width: 120%;
+    border-radius: 10px;
 }
 
 footer {
